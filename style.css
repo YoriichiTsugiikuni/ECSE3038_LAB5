@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(69, 60, 152);
+    background-repeat: repeat;
+    background-size:cover;
+    margin-left:0px;
+}
+
+header {
+    text-align: center;
+    font-family: Fantasy, monospace, cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+h1 {
+    color: white;
+}
+
+.form-wrap {
+    margin:auto;
+    width: 320px;
+    padding:40px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.ins {
+    padding:6px 20px;
+    border-radius:8px;
+    margin-bottom: 20px;
+}
+
+#addtank {
+    margin:auto;
+    width:25%;
+    height:50px;
+    border-radius: 9px;
+    font-family: cursive;
+}
+
+.tanks {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tank-cards {
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background-color: rgba(34, 139, 34, 0.8);
+    box-sizing: border-box;
+    position: relative;
+}
+.id {
+    box-sizing: border-box;
+    width: 100%;
+    height:15%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+.location-desc {
+    text-align: center;
+    font-family: "Courier New";
+    font-weight: bolder;
+    font-size:11px;
+}
+
+.tank-card-perc-full {
+    background-color: rgba(83, 100, 0, 0.8);
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 6%;
+    top: 75%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.tank-card-coordinates {
+    padding-left:3px;
+}
+
+.coordinate-label {
+    display: inline-block;
+    width:38.2167px;
+    color:white;
+    font-weight:bold;
+}
+
+.coordinate-values {
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 3px;
+}
